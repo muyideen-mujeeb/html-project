@@ -1,0 +1,85 @@
+/* RESET DEFAULT BROWSER STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY STYLING */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 30px;
+}
+
+/* NAVIGATION BAR */
+nav {
+    margin: 20px 0;
+}
+
+/* NAV LINKS */
+nav a {
+    background: #0077b6;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* NAV HOVER EFFECT */
+nav a:hover {
+    background: #023e8a;
+}
+
+/* CARD DESIGN */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* FORM INPUTS */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+/* BUTTON STYLE */
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        text-align: center;
+    }
+}
